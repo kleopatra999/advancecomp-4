@@ -1,7 +1,7 @@
 Summary: Recompression utilities for .PNG, .MNG and .ZIP files
 Name: advancecomp
 Version: 1.15
-Release: 18%{?dist}
+Release: 20%{?dist}
 License: GPLv2+
 Group: Applications/Emulators
 URL: http://advancemame.sourceforge.net/
@@ -36,6 +36,12 @@ make install DESTDIR=%{buildroot}
 
 
 %changelog
+* Wed Jan 29 2014 Daniel Mach <dmach@redhat.com> - 1.15-20
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.15-19
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.15-18
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
